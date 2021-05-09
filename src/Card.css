@@ -1,0 +1,87 @@
+.card {
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.upper-card {
+  height: 185px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 0%;
+}
+
+.upper-image {
+  height: 130px;
+  width: 130px;
+  background: white;
+  padding: 0px;
+  transform: translate(50px, 50px);
+}
+
+.upper-body {
+  transform: translate(10px, 50px);
+}
+
+.upper-body p {
+  background: rgb(243, 243, 243);
+  border-radius: 50px;
+  border-width: thick;
+  font-size: 12px;
+  max-width: 30%;
+}
+
+.button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #946df7;
+  border-radius: 7px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 4px 1px;
+  cursor: pointer;
+}
+
+.lower-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 60px;
+  background: rgb(245, 245, 245);
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.lower-card p {
+  text-align: left;
+  font-size: 13px;
+  color: #946df7;
+  margin: 0.5 rem;
+  padding: 5px 5px 5px 5px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to top right, #87ceeb, #af97f0 120%) fixed;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
